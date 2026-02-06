@@ -1,20 +1,12 @@
-# 🌍 GNS Browser
+# ⚠️ This repository has moved
 
-**Identity through Presence**
+This repo is **archived** and read-only.
 
-- Identity = Public Key (Ed25519)
-- Trust = Proof-of-Trajectory (breadcrumbs over time)
-- No DNS, no passwords, no phone numbers
+| Component | New Location |
+|-----------|-------------|
+| Flutter App | [GNS-Foundation/gns-mobile](https://github.com/GNS-Foundation/gns-mobile) |
+| Panthera | [GNS-Foundation/panthera](https://github.com/GNS-Foundation/panthera) |
+| Specs | [GNS-Foundation/specs](https://github.com/GNS-Foundation/specs) |
+| Token Ops | Private |
 
-## Setup
-```bash
-flutter pub get
-flutter run
-```
-
-## Architecture
-
-- `lib/core/crypto/` - Ed25519 keys, secure storage
-- `lib/core/privacy/` - H3 location quantization
-- `lib/core/chain/` - Breadcrumb blockchain
-- `lib/core/gns/` - GNS records, identity wallet
+All future development happens at [github.com/GNS-Foundation](https://github.com/GNS-Foundation).
